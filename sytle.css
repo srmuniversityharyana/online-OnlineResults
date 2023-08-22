@@ -1,0 +1,58 @@
+<style>
+        .blink {
+            animation: blink 1s steps(5, start) infinite;
+            background-color: #ffff66;
+        }
+
+        @keyframes blink {
+            to {
+                visibility: hidden;
+            }
+        }
+    </style>
+
+    <style>
+        .hide {
+            display: none;
+        }
+
+        .dynaColorTR1 {
+            BACKGROUND-COLOR: #E6F0F5;
+        }
+
+        .dynaColorTR2 {
+            BACKGROUND-COLOR: #CCE0EB;
+        }
+
+        .login-container {
+            background-color: #246BB2;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: #E6F0F5;
+        }
+
+        input.submit {
+            background-color: #297ACC;
+            color: #ffffff;
+            moz-border-radius: 5px;
+            width: 90px;
+            /background-image:"../../resources/Image/submit1.gif";
+        }
+
+        input.submit:hover {
+            cursor: pointer;
+            color: yellow;
+            width: 90px;
+            moz-border-radius: 5px;
+        }
+
+        table.resultTable {
+            moz-border-radius: 10px;
+
+            width: 100%;
+            background-color:#9AB4CB;
+            background-color: #246BB2;
+        }
+    </style>
